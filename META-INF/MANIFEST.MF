@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+Content-Package-Id: my_packages:mock-project
+Content-Package-Roots: /apps/Homepage,/apps/Blogpage,/apps/mockprojectte
+ mplates,/apps/library,/apps/Publishedblog
+Content-Package-Type: application
+

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/Blogpage"/>
+    <filter root="/apps/Publishedblog"/>
+    <filter root="/apps/Homepage"/>
+    <filter root="/apps/library"/>
+    <filter root="/apps/mockprojecttemplates"/>
+</workspaceFilter>

@@ -1,0 +1,41 @@
+<body>
+     <div data-sly-use.blogs="com.mysite.core.models.AuthorBlog">
+
+    <div class="container"
+      <div class="row">
+          <div class="card flex-md-row mb-4 shadow-sm h-md-1200">
+            <div class="card-body d-flex flex-column align-items-start">
+              <strong class="d-inline-block mb-2 text-primary">${blogs.blogpage}</strong>
+              <h3 class="mb-0">
+                  <a class="text-dark" href="/apps/mysite/bootcamplibrary/css/blog.css#">Featured Post</a>
+              </h3>
+              <div class="mb-1 text-muted">Jan 23</div>
+                <div data-sly-list.item="${blogs.authorBlogs}">
+                <p class="card-text mb-auto"><b>${item}</b></p>
+                </div>
+              <a href="/apps/mysite/bootcamplibrary/css/blog.css#">Continue reading</a>
+            </div>
+            <img class="card-img-right flex-auto d-none d-lg-block" data-src="holder.js/200x250?theme=thumb" alt="Card image cap">
+          </div>
+      </div>
+     </div>
+</div>
+
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="assets/js/vendor/popper.min.js"></script>
+    <script src="dist/js/bootstrap.min.js"></script>
+    <script src="/apps/mysite/bootcamplibrary/js/holder.js"></script>
+    <script>
+      Holder.addTheme('thumb', {
+        bg: '#55595c',
+        fg: '#eceeef',
+        text: 'Thumbnail'
+      });
+    </script>
+  </body>

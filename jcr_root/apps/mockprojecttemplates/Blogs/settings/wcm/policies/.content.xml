@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <wcm jcr:primaryType="nt:unstructured">
+        <foundation jcr:primaryType="nt:unstructured">
+            <components jcr:primaryType="nt:unstructured">
+                <page jcr:primaryType="nt:unstructured">
+                    <jcr:content
+                        jcr:primaryType="nt:unstructured"
+                        mergeList="{Boolean}true"/>
+                    <default
+                        jcr:description="Policy of the default page"
+                        jcr:lastModified="{Date}2022-03-30T22:36:42.675+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Default Page"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        clientlibs="[wcm.foundation.components.page.responsive,bootcamplibrary]">
+                        <jcr:content
+                            jcr:primaryType="nt:unstructured"
+                            mergeList="{Boolean}true"/>
+                    </default>
+                </page>
+                <responsivegrid jcr:primaryType="nt:unstructured">
+                    <jcr:content
+                        jcr:primaryType="nt:unstructured"
+                        mergeList="{Boolean}true"/>
+                    <default
+                        jcr:description="Policy of the default root parsys"
+                        jcr:lastModified="{Date}2022-03-30T22:16:17.723+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Default Layout Container"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        components="[group:General,/apps/mysite/components/complist,/apps/mysite/components/samplecomponent]">
+                        <cq:authoring jcr:primaryType="nt:unstructured">
+                            <assetToComponentMapping jcr:primaryType="nt:unstructured">
+                                <image
+                                    jcr:primaryType="nt:unstructured"
+                                    assetGroup="media"
+                                    assetMimetype="image/*"
+                                    droptarget="image"
+                                    resourceType="wcm/foundation/components/image"
+                                    type="Images"/>
+                                <product
+                                    jcr:primaryType="nt:unstructured"
+                                    assetGroup="product"
+                                    droptarget="product-data-reference"
+                                    resourceType="commerce/components/product"
+                                    type="Products"/>
+                                <document
+                                    jcr:primaryType="nt:unstructured"
+                                    assetGroup="media"
+                                    assetMimetype="[application/vnd.openxmlformats,application/msword,application/vnd.ms-powerpoint,application/mspowerpoint,application/powerpoint,application/x-mspowerpoint,application/x-msexcel,application/x-excel,application/excel,application/vnd.ms-excel,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document]"
+                                    droptarget="file"
+                                    resourceType="foundation/components/download"
+                                    type="Images"/>
+                                <video
+                                    jcr:primaryType="nt:unstructured"
+                                    assetGroup="media"
+                                    assetMimetype="video/*"
+                                    droptarget="video"
+                                    resourceType="foundation/components/video"
+                                    type="Images"/>
+                                <fragment
+                                    jcr:primaryType="nt:unstructured"
+                                    assetGroup="media"
+                                    assetMimetype="text/html"
+                                    droptarget="fragment"
+                                    resourceType="dam/cfm/components/contentfragment"
+                                    type="Content Fragment"/>
+                                <experiencefragment
+                                    jcr:primaryType="nt:unstructured"
+                                    assetGroup="content"
+                                    assetMimetype="text/html"
+                                    droptarget="experiencefragment"
+                                    resourceType="cq/experience-fragments/editor/components/experiencefragment"
+                                    type="experiencefragment"/>
+                            </assetToComponentMapping>
+                        </cq:authoring>
+                        <jcr:content
+                            jcr:primaryType="nt:unstructured"
+                            mergeList="{Boolean}true"/>
+                    </default>
+                    <policy_3253664031399
+                        jcr:lastModified="{Date}2022-03-26T12:13:30.528+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="blogpage"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        components="group:Mygroup">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </policy_3253664031399>
+                    <policy_4347988350103
+                        jcr:lastModified="{Date}2022-03-26T12:15:05.489+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="blogpage"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        components="group:Mygroup">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </policy_4347988350103>
+                    <policy_5884855290896
+                        jcr:lastModified="{Date}2022-03-26T12:52:45.987+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Blogpagetemplate"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        components="/apps/mysite/components/banner">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </policy_5884855290896>
+                    <policy_6685543740105
+                        jcr:lastModified="{Date}2022-03-27T00:33:14.192+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="heading"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        components="group:Mygroup">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </policy_6685543740105>
+                    <policy_7062100558445
+                        jcr:lastModified="{Date}2022-03-26T13:05:08.942+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="content"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        components="group:Mygroup">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </policy_7062100558445>
+                    <policy_7476424711695
+                        jcr:lastModified="{Date}2022-03-26T13:11:07.818+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="about"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        components="/apps/mysite/components/about">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </policy_7476424711695>
+                    <policy_7785457668236
+                        jcr:lastModified="{Date}2022-03-26T13:14:14.533+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="archieves"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        components="/apps/mysite/components/archieves">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </policy_7785457668236>
+                    <policy_2301009235583
+                        jcr:lastModified="{Date}2022-03-27T13:18:00.650+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="my"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        components="[/apps/mysite/components/content,/apps/mysite/components/heading]">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </policy_2301009235583>
+                    <policy_2467866444121
+                        jcr:lastModified="{Date}2022-03-27T13:01:35.417+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="my"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        components="/apps/mysite/components/content">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </policy_2467866444121>
+                    <policy_2642109887255
+                        jcr:lastModified="{Date}2022-03-27T13:04:07.726+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="my"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        components="/apps/mysite/components/content">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </policy_2642109887255>
+                    <policy_2690932415769
+                        jcr:lastModified="{Date}2022-03-27T13:19:22.150+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="my"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        components="[/apps/mysite/components/about,/apps/mysite/components/archieves]">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </policy_2690932415769>
+                    <policy_2755298163618
+                        jcr:lastModified="{Date}2022-03-27T13:08:26.345+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="my"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        components="/apps/mysite/components/banner">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </policy_2755298163618>
+                    <policy_2925890465418
+                        jcr:lastModified="{Date}2022-03-27T13:11:31.121+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="my"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        components="/apps/mysite/components/archieves">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </policy_2925890465418>
+                    <policy_3582312694082
+                        jcr:lastModified="{Date}2022-03-27T13:41:43.797+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="my"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        components="[/apps/mysite/components/blogpagefooter,/apps/mysite/components/Homepagefooter]">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </policy_3582312694082>
+                    <policy_4366996543816
+                        jcr:lastModified="{Date}2022-03-27T13:33:04.646+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="My"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        components="/apps/mysite/components/blogpageheader">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </policy_4366996543816>
+                    <policy_13690898130421
+                        jcr:lastModified="{Date}2022-03-28T11:01:51.860+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="my"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        components="group:Mygroup">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </policy_13690898130421>
+                    <policy_30240243436078
+                        jcr:lastModified="{Date}2022-03-27T23:57:06.962+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="myyyyyy"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        components="/apps/mysite/components/myoptions">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </policy_30240243436078>
+                    <policy_30593205380244
+                        jcr:lastModified="{Date}2022-03-29T21:54:50.824+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="myy"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        components="[/apps/mysite/components/myoptions,group:Mygroup]">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </policy_30593205380244>
+                    <policy_4423021538088
+                        jcr:lastModified="{Date}2022-03-30T22:17:05.951+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="my"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        components="/apps/mysite/components/blogpageheader">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </policy_4423021538088>
+                    <policy_4489323998444
+                        jcr:lastModified="{Date}2022-03-30T22:17:59.469+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="my"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        components="/apps/mysite/components/blogpagefooter">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </policy_4489323998444>
+                    <policy_4522343982293
+                        jcr:lastModified="{Date}2022-03-30T22:24:41.053+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="myyyy"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        components="[/libs/wcm/foundation/components/responsivegrid,/apps/mysite/components/about,/apps/mysite/components/archieves,/apps/mysite/components/banner,/apps/mysite/components/content,/apps/mysite/components/heading]">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </policy_4522343982293>
+                </responsivegrid>
+            </components>
+        </foundation>
+    </wcm>
+</jcr:root>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:deviceGroups="[mobile/groups/responsive]"
+        cq:lastModified="{Date}2022-04-01T11:38:05.921+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/Homepage/settings/wcm/templates/homepageblogfinal"
+        jcr:primaryType="cq:PageContent"
+        sling:resourceType="wcm/foundation/components/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <responsivegrid
+                jcr:created="{Date}2022-04-01T11:18:25.838+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2022-04-01T11:18:25.838+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/responsivegrid">
+                <cq:responsive jcr:primaryType="nt:unstructured"/>
+                <headerhomepage
+                    jcr:created="{Date}2022-04-01T11:19:58.768+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-04-01T11:19:58.768+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="mysite/components/Headerhomepage"/>
+            </responsivegrid>
+            <responsivegrid_1904785151
+                jcr:created="{Date}2022-04-01T11:18:31.950+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2022-04-01T11:18:31.950+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/responsivegrid"
+                editable="{Boolean}true">
+                <cq:responsive jcr:primaryType="nt:unstructured"/>
+            </responsivegrid_1904785151>
+            <responsivegrid_479946330
+                jcr:created="{Date}2022-04-01T11:18:38.639+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2022-04-01T11:18:38.639+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/responsivegrid">
+                <cq:responsive jcr:primaryType="nt:unstructured"/>
+                <homepagefooter
+                    jcr:created="{Date}2022-04-01T11:19:12.415+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-04-01T11:38:05.919+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="mysite/components/Homepagefooter"
+                    link="http://localhost:4502/crx/de/index.jsp#/apps/mysite/components/Homepagefooter/cq%3Adialog"
+                    name="Back to top"/>
+            </responsivegrid_479946330>
+        </root>
+        <cq:responsive jcr:primaryType="nt:unstructured">
+            <breakpoints jcr:primaryType="nt:unstructured">
+                <phone
+                    jcr:primaryType="nt:unstructured"
+                    title="Smaller Screen"
+                    width="{Long}650"/>
+                <tablet
+                    jcr:primaryType="nt:unstructured"
+                    title="Tablet"
+                    width="{Long}1200"/>
+            </breakpoints>
+        </cq:responsive>
+    </jcr:content>
+</jcr:root>
